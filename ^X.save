@@ -1,0 +1,17 @@
+name: My First DevOps Pipeline
+
+on: [push]
+
+jobs:
+  run-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Run a Test Command
+        run: |
+          echo "Hello from my automated CI pipeline!"
+          pwd
+	  ls -la
+

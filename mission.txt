@@ -1,0 +1,5 @@
+this is my first personnal pratical demo
+STATUS=SUCCESS
+PROJECT=DevOps-Journey
+ERROR=NONE
+AUTHOR=Pro-Engineer
